@@ -1,0 +1,42 @@
+body {
+  background: rgb(26, 116, 149);
+  background: red;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgb(121, 203, 245), rgb(26, 116, 149));
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgb(121, 203, 245), rgb(26, 116, 149));
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgb(121, 203, 245), rgb(26, 116, 149));
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgb(121, 203, 245), rgb(26, 116, 149));
+  /* Standard syntax */
+  font-size: 16px;
+}
+.content {
+  padding: 50px;
+}
+.list {
+  list-style-type: none;
+}
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.goRight {
+  float: right;
+}
+a {
+  cursor: pointer;
+}
